@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Karma", serif;
+    /* font-family: "Verdana", sans-serif; */
+}
+section{
+    display:inline-block;
+    width:300px;
+    margin:5px;
+}
+img{
+    width:100%;
+    padding: 3px;
+}
+h3,h2,p{
+    text-align:start;
+    padding: 10px;
+}
+h3{
+    font-weight: 100px;
+    font-size: 28px;
+    /* color:rgb(30, 30, 31) */
+}
+h2{
+    font-weight:100px;
+    color: rgb(147, 146, 146);
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+button{
+    width:300px;
+    height:30px;
+    border: none;
+    font-size: 18px;
+}
+header{
+    font-size: 20px;
+    margin:15px 0px;
+}
+.br{
+    margin-right:70%;
+}
+.project , .about{
+    margin-right:10px;
+}
+span{
+    padding:5px;
+    transition: all 0.5s ease;
+}
+.br:hover{
+    background-color: gray;
+    color:#fff;
+}
+.project:hover{
+    background-color: gray;
+    color: #fff;
+}
+.about:hover{
+    background-color: gray;
+    color: #fff;
+}
+.contact:hover{
+    background-color: gray;
+    color: #fff;
+}
+.BR{
+    position: absolute;
+    top: 60%;
+    left:40%;
+    background-color: black;
+    opacity: 0.7;
+    color: #fff;
+    width: 70px;
+    font-size: 50px;
+}
+.architect{
+    position: absolute;
+    top:61%;
+    left: 46%;
+    color: #fff;
+    font-size: 40px;
+}
+button:hover{
+    background-color: gray;
+    opacity: 0.5;
+    color:#fff;
+}
+.projects{
+    display: inline-block;
+    /* width:200px; */
+    /* margin:5px;     */
+    position:relative;
+    /* width:100px; */
+}
+.summer,.brick,.renovated,.barn,.summer2,.brick2,.renovated2,.barn2{
+    display: inline-block;
+    /* margin: 10px; */
+    width :305px;
+    padding: 5px;
+    margin: 2px;
+    position:relative;
+}
+.projects p{
+    background-color: black;
+    color: white;
+    width: 150px;
+    position:absolute;
+    top:8px;
+    left:7px;
+    z-index:1;
+}
+.projects h6{
+    margin: 10px;
+    padding:10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.abt h4{
+    margin: 10px;
+    padding:10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.abt p{
+    font-size: 20px;
+    padding:20px;
+}
+
